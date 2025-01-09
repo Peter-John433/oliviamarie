@@ -52,7 +52,7 @@
     </div>
     <div class="md:h-[538px] w-full bg-[#D8D8D8] inset-x-0 bottom-0 absolute mb-2">
       <div
-        class="flex justify-center items-center gap-x-[10rem] my-2 md:absolute md:bottom-[18%] md:transform md:translate-x-1/2 md:left-1/2 md:right-1/2"
+        class="flex justify-center items-center md:gap-x-[10rem] my-2 md:absolute md:bottom-[18%] md:transform md:translate-x-1/2 md:left-1/2 md:right-1/2 z-30"
       >
         <FaceBookIcon
           width="80"
@@ -60,8 +60,6 @@
           color="fill: rgba(0, 0, 0, .2)"
           class="bg-white rounded-full p-[14px]"
         />
-
-        <!-- <span>Takes you back to my youth! My best and most classic content.</span> -->
 
         <InstagramIcon
           width="80"
@@ -83,6 +81,24 @@
           color="fill: rgba(0, 0, 0, .2)"
           class="bg-white rounded-full p-[14px]"
         />
+      </div>
+      <div
+        class="relative md:-bottom-[84%] md:left-0 flex justify-center items-start md:gap-x-[5rem] text-lg text-text text-center font-extralight"
+      >
+        <div>
+          Takes you back to my youth! <br class="hidden md:block" />
+          My best and most classic <br class="hidden md:block" />
+          content.
+        </div>
+        <div>
+          My biggest platform and <br class="hidden md:block" />
+          most resent updates
+        </div>
+        <div>A direct way to reach me.</div>
+        <div>
+          My video blog. Come learn <br class="hidden md:block" />
+          more!
+        </div>
       </div>
     </div>
   </div>
