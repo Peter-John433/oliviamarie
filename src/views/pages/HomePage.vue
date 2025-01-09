@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div>
+    <GetInTouch />
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import GetInTouch from '@/components/getintouch/GetInTouch.vue'
+</script>
