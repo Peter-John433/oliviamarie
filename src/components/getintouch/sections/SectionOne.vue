@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-start items-center bg-text gap-x-20">
+  <div class="container flex justify-start items-center bg-text gap-x-20">
     <img
       src="@/assets/imgs/office-lady.jpg"
       class="h-[328px] w-[420.891px] max-[100%] object-cover"

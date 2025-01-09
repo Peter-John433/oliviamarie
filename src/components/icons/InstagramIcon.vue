@@ -1,11 +1,11 @@
 <template>
-  <a href="#" class="bg-white rounded-full p-[3px]">
+  <a href="#">
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="18"
-      height="18"
+      :width="width"
+      :height="height"
       viewBox="0 0 24 24"
-      style="fill: rgba(0, 0, 0, 1)"
+      :style="color"
     >
       <path
         d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"
@@ -17,3 +17,10 @@
     </svg>
   </a>
 </template>
+<script setup>
+defineProps({
+  width: String,
+  height: String,
+  color: String,
+})
+</script>

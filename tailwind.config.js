@@ -21,6 +21,9 @@ export default {
         lg: '15px',
         header: '50px',
       },
+      boxShadow: {
+        shadow: '1.5px 1.5px 3px 0px rgba(0, 0, 0, .6)',
+      },
     },
   },
   plugins: [],

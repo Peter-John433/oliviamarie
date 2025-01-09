@@ -17,6 +17,13 @@ body {
   font-style: normal;
 }
 
+/* form input */
+
+form,
+input {
+  color: #000000 !important;
+}
+
 .container {
   width: 100%;
   margin-left: auto;
