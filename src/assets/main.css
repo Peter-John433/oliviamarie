@@ -9,6 +9,12 @@
   margin: 0%;
   padding: 0%;
 }
+/* for parallax */
+html,
+body {
+  height: 100%;
+  overflow-y: auto;
+}
 
 body {
   background-color: #ffffff;
@@ -22,6 +28,13 @@ body {
 form,
 input {
   color: #000000 !important;
+}
+
+.img-bg {
+  background-image: url('../assets/imgs/bg-img.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .container {

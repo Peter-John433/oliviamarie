@@ -24,6 +24,7 @@ export default {
       boxShadow: {
         shadow: '1.5px 1.5px 3px 0px rgba(0, 0, 0, .6)',
       },
+      transform: ['responsive', 'hover', 'focus'],
     },
   },
   plugins: [],
