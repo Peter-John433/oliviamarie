@@ -13,7 +13,7 @@
         <router-link :to="{ name: 'home' }">HOME</router-link>
         <router-link :to="{ name: 'about' }">ABOUT</router-link>
         <router-link :to="{ name: 'awards' }">AWARDS</router-link>
-        <a href="#">COMPERE AND PUBLIC SPEAKING</a>
+        <router-link :to="{ name: 'compere-and-public' }">COMPERE AND PUBLIC SPEAKING</router-link>
         <a href="#">MEDIA PERSONALITY</a>
         <a href="#">MENTORSHIP</a>
         <a href="#">PROJECTS</a>
