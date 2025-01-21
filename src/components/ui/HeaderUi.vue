@@ -12,7 +12,7 @@
       >
         <router-link :to="{ name: 'home' }">HOME</router-link>
         <router-link :to="{ name: 'about' }">ABOUT</router-link>
-        <a href="#">AWARDS</a>
+        <router-link :to="{ name: 'awards' }">AWARDS</router-link>
         <a href="#">COMPERE AND PUBLIC SPEAKING</a>
         <a href="#">MEDIA PERSONALITY</a>
         <a href="#">MENTORSHIP</a>
